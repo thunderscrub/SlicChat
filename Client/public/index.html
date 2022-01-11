@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slicc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="sliccfavicon.svg">
+  </head>
+  <body>
+    <div class="sidebar">
+      <button onclick="createroom(prompt('Room id: '))">Create or join<br>a room</button>
+    </div>
+    <div class="main">
+      <div class="chatbox">
+
+      </div>
+      <div class="inputbox"> 
+        <input class="chatinput"></input><span class="charlimit"></span>
+      </div>
+    </div>
+    <template class="messagetemp">
+      <div class="message">
+        <div class="sender">
+
+        </div>
+        <div class="content">
+
+        </div>
+        <p class="time"></p>
+      </div>
+    </template>
+	<script src="index.js"></script>
+  </body>
+</html>
